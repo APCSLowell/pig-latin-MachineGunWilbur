@@ -40,7 +40,9 @@ public class PigLatin {
     }
     }
 
-    public String pigLatin(String sWord) {  if(sWord.length() == 0){
+    public String pigLatin(String sWord) { 
+	    
+if(sWord.length() == 0){
   return "";
 }
 if(findFirstVowel(sWord) == -1)
